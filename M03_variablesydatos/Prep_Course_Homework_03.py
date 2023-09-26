@@ -7,13 +7,15 @@
 
 # In[7]:
 
-
+edad = 25
+print(edad)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+const = 8.5
+print(type(const))
 
 
 
@@ -21,6 +23,7 @@
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
+print(type(edad))
 
 
 
@@ -29,14 +32,14 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+nombre = "Conrado Torino"
 
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
+complejo = 2j
 
 
 
@@ -44,7 +47,7 @@
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
-
+type(complejo)
 
 
 
@@ -60,7 +63,8 @@ pi = 3.1416
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
-
+verdadero = "True"
+bool_true = True
 
 
 
@@ -68,7 +72,7 @@ pi = 3.1416
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+print(type(verdadero) + type(bool_true))
 
 
 
@@ -76,7 +80,7 @@ pi = 3.1416
 # 10) Asignar a una variable, la suma de un número entero y otro decimal
 
 # In[1]:
-
+edad= float(edad) + pi
 
 
 
@@ -84,7 +88,7 @@ pi = 3.1416
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
-
+4j + 1j
 
 
 
@@ -93,7 +97,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+2,5 + 1j
 
 
 
@@ -101,7 +105,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+2*3
 
 
 
@@ -109,14 +113,15 @@ pi = 3.1416
 
 # In[6]:
 
-
+print(2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+cociente = 27/4
+print(cociente)
 
 
 
@@ -124,7 +129,7 @@ pi = 3.1416
 
 # In[9]:
 
-
+print(27//4)
 
 
 
@@ -132,7 +137,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+print(27%4)
 
 
 
@@ -140,7 +145,7 @@ pi = 3.1416
 
 # In[2]:
 
-
+6*4 +3
 
 
 
@@ -148,7 +153,9 @@ pi = 3.1416
 
 # In[3]:
 
-
+n_1 = "Soy"
+n_2= "Henry"
+print(n_1+n_2)
 
 
 
@@ -156,7 +163,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+2=="2"
 
 
 
@@ -164,7 +171,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2==int("2")
 
 
 
@@ -180,7 +187,8 @@ pi = 3.1416
 
 # In[15]:
 
-
+tres = 3
+tres -= 1
 
 
 
@@ -188,14 +196,14 @@ pi = 3.1416
 
 # In[29]:
 
-
+1<<2
 
 
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
-
+2 + "2"
 
 
 
@@ -204,6 +212,6 @@ pi = 3.1416
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
-
+print(nombre * edad)
 
 
